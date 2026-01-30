@@ -16,13 +16,6 @@ export default function Header() {
 
             <div className="flex items-center gap-3">
               <Timer />
-
-              {/* Декоративный плюс как в дизайне */}
-              {/* <div className="flex items-center"> */}
-                {/* <div className="w-8 h-8 rounded-full bg-gradient-to-r from-[#FF7A00] to-[#FF2E00] flex items-center justify-center"> */}
-                  {/* <span className="text-white font-bold text-lg">+</span> */}
-                {/* </div> */}
-              {/* </div> */}
             </div>
           </div>
         </div>

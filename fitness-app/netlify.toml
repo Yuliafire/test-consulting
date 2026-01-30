@@ -1,5 +1,6 @@
 # netlify.toml
 [build]
+ base = "fitness-app" 
   publish = ".next"
   command = "npm run build"
 

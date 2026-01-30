@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import CheckBox from '../components/ui/CheckBox';
+import PricesGrid from '../components/ui/PricesGrid';
 
 export default function Home() {
 
@@ -24,8 +25,8 @@ export default function Home() {
                   sizes="(max-width: 640px) 320px, (max-width: 768px) 380px, (max-width: 1024px) 440px, 500px"
                 />
               </div>
-              <div className="flex flex-col">
-                {/* <PricesGrid /> */}
+              <div className="flex gap-8 flex-col">
+                <PricesGrid />
 
                 <div className="flex flex-col gap-6 md:gap-8 w-full">
                   <div className="flex flex-row items-start p-[18px_20px] gap-2  w-full max-w-[499px] h-auto md:h-[78px]   bg-[#2D3233] rounded-[20px] mx-4 md:mx-0">
@@ -54,7 +55,7 @@ export default function Home() {
 
                   <CheckBox />
 
-                  <p className="w-full max-w-[748px] md:w-[748px] h-auto md:h-[68px] font-montserrat font-normal text-xs sm:text-sm leading-[140%] md:leading-[120%] text-[#9B9B9B] px-4 md:px-0 mx-auto">
+                  <p className="w-full max-w-[748px] md:w-[748px] h-auto md:h-[68px] font-montserrat font-normal text-xs sm:text-sm leading-[140%] md:leading-[120%] text-[#9B9B9B] px-4 md:px-0">
                     Нажимая кнопку «Купить», Пользователь соглашается на разовое
                     списание денежных средств для получения пожизненного доступа
                     к приложению. Пользователь соглашается, что данные
